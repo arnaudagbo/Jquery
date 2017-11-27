@@ -1,0 +1,71 @@
+/* line 5, /Users/arnaudagbo/Desktop/DEV/RUBY/animation/app/assets/stylesheets/welcome.scss */
+* {
+  font-family: sans-serif;
+  background-color: #DDDDDD;
+  color: white;
+}
+
+/* line 11, /Users/arnaudagbo/Desktop/DEV/RUBY/animation/app/assets/stylesheets/welcome.scss */
+h1 {
+  text-align: center;
+  font-size: 4em;
+  color: turquoise;
+  text-shadow: 2px 2px white;
+}
+
+/* line 18, /Users/arnaudagbo/Desktop/DEV/RUBY/animation/app/assets/stylesheets/welcome.scss */
+h2 {
+  text-align: center;
+  font-size: 2em;
+  color: white;
+  text-shadow: 2px 2px turquoise;
+}
+
+/* line 25, /Users/arnaudagbo/Desktop/DEV/RUBY/animation/app/assets/stylesheets/welcome.scss */
+h3 {
+  font-size: 1.5em;
+}
+
+/* line 30, /Users/arnaudagbo/Desktop/DEV/RUBY/animation/app/assets/stylesheets/welcome.scss */
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 36, /Users/arnaudagbo/Desktop/DEV/RUBY/animation/app/assets/stylesheets/welcome.scss */
+.content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+}
+
+/* line 45, /Users/arnaudagbo/Desktop/DEV/RUBY/animation/app/assets/stylesheets/welcome.scss */
+#cont1, #cont2, #cont3 {
+  display: none;
+  font-size: 1.3em;
+}
+
+/* line 50, /Users/arnaudagbo/Desktop/DEV/RUBY/animation/app/assets/stylesheets/welcome.scss */
+button, h3 {
+  border: none;
+  background-color: turquoise;
+  margin: 10px 30px;
+  padding: 3px;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
